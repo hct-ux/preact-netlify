@@ -7,7 +7,7 @@ const components = (props) => {
   const [data, isLoading] = usePrerenderData(props);
   return (
     <div class={style.pageBlogs}>
-      <h1 class={style.pageTitle}>My Blogs</h1>
+      <h1 class={style.pageTitle}>Components</h1>
       {getComponentsListing(data, isLoading)}
     </div>
   );
@@ -20,9 +20,8 @@ function getComponentsListing(data, isLoading) {
   if (data && data.data) {
     const { data: components } = data;
     return (
-      <>
+      <div class={style.componentsList}>
         {components.edges.map((component) => {
-          console.log(component);
           return (
             <Link href={`/component/${component.id}`}>
               <article>
@@ -34,7 +33,7 @@ function getComponentsListing(data, isLoading) {
             </Link>
           );
         })}
-      </>
+      </div>
     );
   }
 }

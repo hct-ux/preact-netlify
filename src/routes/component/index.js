@@ -2,14 +2,15 @@ import { h } from "preact";
 import { Suspense } from "preact/compat";
 import { usePrerenderData } from "@preact/prerender-data-provider";
 import Markdown from "markdown-to-jsx";
+import Example from "../../components/example";
 
 import style from "./style";
 
 const component = (props) => {
   const [data, isLoading] = usePrerenderData(props);
   return (
-    <article class={style.blogcontainer}>
-      {getBlogBody(data, isLoading)}
+    <article class={style.componentcontainer}>
+      {getComponentBody(data, isLoading)}
     </article>
   );
 };
@@ -39,7 +40,7 @@ function InlineImage({ alt, title, src }) {
   );
 }
 
-function getBlogBody(data, isLoading) {
+function getComponentBody(data, isLoading) {
   if (isLoading) {
     return <div class="spinner"></div>;
   }
@@ -73,6 +74,40 @@ function getBlogBody(data, isLoading) {
             style={`background-image:url(${details.cover})`}
           />
         )}
+        <div class={style.examples}>
+          <h2>Examples</h2>
+          {details.examples.map((example) => {
+            return <Example example={example} />;
+            // return (
+            //   <div class={style.example}>
+            //     <h3>{example.title}</h3>
+            //     <Markdown
+            //       options={{
+            //         overrides: {
+            //           img: {
+            //             component: InlineImage,
+            //           },
+            //           code: {
+            //             component: CodeBlock,
+            //           },
+            //         },
+            //       }}
+            //     >
+            //       {example.description}
+            //     </Markdown>
+            //     {example.preview && (
+            //       <iframe
+            //         onLoad={() => {
+            //           console.log("LOADED");
+            //         }}
+            //         class={style.examplePreview}
+            //         src={example.preview}
+            //       ></iframe>
+            //     )}
+            //   </div>
+            // );
+          })}
+        </div>
         <div class={style.blogbody}>
           <Markdown
             options={{

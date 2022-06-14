@@ -18,11 +18,6 @@ examples:
       screens buttons are stacked horizontally, in order of ascending importance
       (tertiary > secondary > primary) in the direction of the chosen language
       (RTL or LTR).
+  - title: Next / previous button group
+    description: In a linear stepped journey, the “previous” and “next” actions can be separately aligned left and right across large and medium screen sizes. On small screens, buttons stack vertically (as per a standard button group). The button labels can be anything but should always navigate to steps in a linear journey and preferably include chevrons to indicate the direction of travel. Tertiary buttons can be included, stacked on the inside of the “next” action.
 ---
-Examples
-Standard
-On small screens, buttons stack vertically from top to bottom in order of descending importance (primary > secondary > tertiary). On larger screens buttons are stacked horizontally, in order of ascending importance (tertiary > secondary > primary) in the direction of the chosen language (RTL or LTR).
-EXAMPLE COMING SOON!
-
-Next / previous button group
-In a linear stepped journey, the “previous” and “next” actions can be separately aligned left and right across large and medium screen sizes. On small screens, buttons stack vertically (as per a standard button group). The button labels can be anything but should always navigate to steps in a linear journey and preferably include chevrons to indicate the direction of travel. Tertiary buttons can be included, stacked on the inside of the “next” action.
