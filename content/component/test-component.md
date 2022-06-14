@@ -15,12 +15,9 @@ description: >-
 
   * Size (default, small)
 dos:
-  - Keep text labels clear and short
-  - preferably two or three words (in sentence case) describing the action or
-    destination
-  - leading with an actionable verb (such as "edit contact" "download file").
-  - Icon buttons can be used to highlight certain actions
-  - such as “download”.
+  - "Keep text labels clear and short, preferably two or three words (in sentence case) describing the action or
+    destination, leading with an actionable verb (such as "edit contact" "download file")."
+  - "Icon buttons can be used to highlight certain actions, such as \"download\"".
 ---
 At usu tale everti philosophia, consequat gloriatur voluptatum mel cu. Ea quo tota modus debet, ad vitae consetetur conclusionemque usu. Nam cu eripuit luptatum. At posse nemore persequeris per. Mea ut aeterno vivendo, quodsi aeterno dissentiunt te cum.
 
