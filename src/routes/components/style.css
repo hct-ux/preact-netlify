@@ -67,3 +67,12 @@ h2 {
 .sample {
   border: none;
 }
+
+.titles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}

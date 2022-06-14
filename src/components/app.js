@@ -157,7 +157,7 @@ export default class App extends Component {
                         );
                       }}
                     </Match>
-                    <Match path="/blogs">
+                    {/* <Match path="/blogs">
                       {({ matches }) => {
                         let cn = matches ? "primary-nav__item--active" : "";
                         return (
@@ -172,7 +172,7 @@ export default class App extends Component {
                           </li>
                         );
                       }}
-                    </Match>
+                    </Match> */}
                     <Match path="/components">
                       {({ matches }) => {
                         let cn = matches ? "primary-nav__item--active" : "";
@@ -192,7 +192,7 @@ export default class App extends Component {
                       }}
                     </Match>
 
-                    <li class="primary-nav__item">
+                    {/* <li class="primary-nav__item">
                       <a class="primary-nav__link">
                         <div class="primary-nav__linktext">Title</div>
                       </a>
@@ -201,10 +201,10 @@ export default class App extends Component {
                       <a class="primary-nav__link">
                         <div class="primary-nav__linktext">Title</div>
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
 
-                  <ul class="primary-nav__section">
+                  {/* <ul class="primary-nav__section">
                     <li class="primary-nav__item primary-nav__item--title">
                       Section
                     </li>
@@ -262,7 +262,7 @@ export default class App extends Component {
                         <div class="primary-nav__linktext">Title</div>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </nav>
             </div>

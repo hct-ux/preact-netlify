@@ -1,6 +1,6 @@
 import Markdown from "markdown-to-jsx";
 import { useState } from "preact/hooks";
-
+import LoadableFrame from "../loadable-frame";
 import style from "./style";
 
 function CodeBlock(props) {
@@ -48,28 +48,29 @@ const example = (props) => {
         {props.example.description}
       </Markdown>
       {props.example.preview && (
-        <div
-          class={`${style.previewContainer} ${
-            loading ? style.previewContainerLoading : ""
-          }`}
-        >
-          <iframe
-            onLoad={() => {
-              setLoading(false);
-            }}
-            class={`${style.examplePreview} ${
-              loading ? style.previewLoading : ""
-            }`}
-            src={props.example.preview}
-          ></iframe>
-          <div
-            class="spinner"
-            style={{ display: loading ? "block" : "none" }}
-          ></div>
-          <span style={{ display: loading ? "block" : "none" }}>
-            Loading preview...
-          </span>
-        </div>
+        <LoadableFrame url={props.example.preview} />
+        // <div
+        //   class={`${style.previewContainer} ${
+        //     loading ? style.previewContainerLoading : ""
+        //   }`}
+        // >
+        //   <iframe
+        //     onLoad={() => {
+        //       setLoading(false);
+        //     }}
+        //     class={`${style.examplePreview} ${
+        //       loading ? style.previewLoading : ""
+        //     }`}
+        //     src={props.example.preview}
+        //   ></iframe>
+        //   <div
+        //     class="spinner"
+        //     style={{ display: loading ? "block" : "none" }}
+        //   ></div>
+        //   <span style={{ display: loading ? "block" : "none" }}>
+        //     Loading preview...
+        //   </span>
+        // </div>
       )}
     </div>
   );
