@@ -21,15 +21,19 @@ function getComponentsListing(data, isLoading) {
     const { data: components } = data;
     return (
       <>
-        {components.edges.map((component) => (
-          <Link href={`/component/${component.id}`}>
-            <article>
-              <h2>{component.details.title}</h2>
+        {components.edges.map((component) => {
+          console.log(component);
+          return (
+            <Link href={`/component/${component.id}`}>
+              <article>
+                <h2>{component.details.title}</h2>
 
-              <p class={style.preview}>{component.preview}</p>
-            </article>
-          </Link>
-        ))}
+                {/* <p class={style.preview}>{component.preview}</p> */}
+                <iframe class={style.sample} src={component.details.preview} />
+              </article>
+            </Link>
+          );
+        })}
       </>
     );
   }

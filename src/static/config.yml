@@ -25,6 +25,15 @@ collections:
       - { label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Preview", name: "preview", widget: "url", required: false}
       - { label: "Do's", name: "dos", widget: "list" }
       - { label: "Dont's", name: "donts", widget: "list" }
+      - label: "Examples"
+        name: "examples"
+        widget: "list" 
+        fields: 
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "markdown" }
+          - { label: "Preview", name: "preview", widget: "url", required: false }
+
 

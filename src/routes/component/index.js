@@ -46,7 +46,7 @@ function getBlogBody(data, isLoading) {
 
   if (data && data.data) {
     const { details, content } = data.data;
-    console.log(details, content);
+    console.log("DETAILS", details, content);
     return (
       <div>
         <h1 class={style.blogtitle}>{details.title}</h1>
@@ -88,6 +88,24 @@ function getBlogBody(data, isLoading) {
           >
             {content}
           </Markdown>
+          <div class={style.doanddont}>
+            <div class={style.dos}>
+              <h3>Do...</h3>
+              <ul>
+                {details.dos.map((dont) => (
+                  <li>{dont}</li>
+                ))}
+              </ul>
+            </div>
+            <div class={style.donts}>
+              <h3>Don't...</h3>
+              <ul>
+                {details.donts.map((dont) => (
+                  <li>{dont}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     );

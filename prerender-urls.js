@@ -4,7 +4,7 @@ const fs = require("fs");
 const parseMD = require("parse-md").default;
 
 const [blogs, components] = generateFileList(join(__dirname, "content")).nodes;
-console.log(components);
+
 module.exports = () => {
   const pages = [
     {
@@ -76,7 +76,6 @@ module.exports = () => {
           content: data,
         },
       };
-      console.log("p", p);
       return p;
     })
   );

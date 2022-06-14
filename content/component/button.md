@@ -14,10 +14,17 @@ description: >-
   * State (enabled, active, spinner, disabled)
 
   * Size (default, small)
+preview: "https://ds.gbgplc.com/react/iframe.html?id=atoms-button--button-element"
 dos:
   - "Keep text labels clear and short, preferably two or three words (in sentence case) describing the action or
-    destination, leading with an actionable verb (such as "edit contact" "download file")."
-  - "Icon buttons can be used to highlight certain actions, such as \"download\"".
+    destination, leading with an actionable verb (such as \"edit contact\" \"download file\")."
+  - "Icon buttons can be used to highlight certain actions, such as \"download\"."
+donts:
+  - "Don’t overuse icons or heavily rely on them to convey meaning. Icons are often misinterpreted so include text labels where possible."
+  - "Avoid using multiple instances of primary buttons on the same page. Instead, use secondary, tertiary and icon buttons to differentiate calls to action."
+  - "Avoid temporarily hiding or disabling buttons in form journeys. In cases where an action can’t yet be performed, allow the person to try to continue and give clear feedback on why they can’t."
+  - "Buttons should not open new windows or tabs unless doing so avoids disruption, such as within a long form, or when media is playing (in which case, navigation will interrupt it)."
+
 ---
 At usu tale everti philosophia, consequat gloriatur voluptatum mel cu. Ea quo tota modus debet, ad vitae consetetur conclusionemque usu. Nam cu eripuit luptatum. At posse nemore persequeris per. Mea ut aeterno vivendo, quodsi aeterno dissentiunt te cum.
 
