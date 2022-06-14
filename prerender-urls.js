@@ -1,45 +1,85 @@
-const { generateFileList } = require('./src/crawler');
-const { join } = require('path');
-const fs = require('fs');
-const parseMD = require('parse-md').default;
+const { generateFileList } = require("./src/crawler");
+const { join } = require("path");
+const fs = require("fs");
+const parseMD = require("parse-md").default;
 
-const [blogs] = generateFileList(join(__dirname, 'content')).nodes;
+const [blogs, components] = generateFileList(join(__dirname, "content")).nodes;
+console.log(components);
 module.exports = () => {
-	const pages = [
-		{
-			url: '/',
-			seo: {
-				cover: '/assets/profile.jpg'
-			}
-		},
-		{ url: '/contact/' },
-		{ url: '/contact/success' }
-	];
+  const pages = [
+    {
+      url: "/",
+      seo: {
+        cover: "/assets/profile.jpg",
+      },
+    },
+    { url: "/contact/" },
+    { url: "/contact/success" },
+  ];
 
-	// adding blogs list posts page
-	pages.push({
-		url: '/blogs/',
-		data: blogs
-	});
+  // adding blogs list posts page
+  pages.push({
+    url: "/blogs/",
+    data: blogs,
+  });
 
-	// adding all blog pages
-	pages.push(...blogs.edges.map(blog => {
-		let data;
-		if (blog.format === 'md') {
-			const { content } = parseMD(fs.readFileSync(join('content', 'blog', blog.id), 'utf-8'));
-			data = content;
-		} else {
-			data = fs.readFileSync(join('content', 'blog', blog.id), 'utf-8').replace(/---(.*(\r)?\n)*---/, '');
-		}
-		return {
-			url: `/blog/${blog.id}`,
-			seo: blog.details,
-			data: {
-				details: blog.details,
-				content: data
-			}
-		};
-	}));
+  //adding components list posts page
+  pages.push({
+    url: "/components/",
+    data: components,
+  });
 
-	return pages;
+  // adding all blog pages
+  pages.push(
+    ...blogs.edges.map((blog) => {
+      let data;
+      if (blog.format === "md") {
+        const { content } = parseMD(
+          fs.readFileSync(join("content", "blog", blog.id), "utf-8")
+        );
+        data = content;
+      } else {
+        data = fs
+          .readFileSync(join("content", "blog", blog.id), "utf-8")
+          .replace(/---(.*(\r)?\n)*---/, "");
+      }
+      return {
+        url: `/blog/${blog.id}`,
+        seo: blog.details,
+        data: {
+          details: blog.details,
+          content: data,
+        },
+      };
+    })
+  );
+
+  //adding all blog pages
+  pages.push(
+    ...components.edges.map((component) => {
+      let data;
+      if (component.format === "md") {
+        const { content } = parseMD(
+          fs.readFileSync(join("content", "component", component.id), "utf-8")
+        );
+        data = content;
+      } else {
+        data = fs
+          .readFileSync(join("content", "component", component.id), "utf-8")
+          .replace(/---(.*(\r)?\n)*---/, "");
+      }
+      const p = {
+        url: `/component/${component.id}`,
+        seo: component.details,
+        data: {
+          details: component.details,
+          content: data,
+        },
+      };
+      console.log("p", p);
+      return p;
+    })
+  );
+
+  return pages;
 };
