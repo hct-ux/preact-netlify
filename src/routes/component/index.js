@@ -47,7 +47,6 @@ function getComponentBody(data, isLoading) {
 
   if (data && data.data) {
     const { details, content } = data.data;
-    console.log("DETAILS", details, content);
     return (
       <div>
         <h1 class={style.blogtitle}>{details.title}</h1>
@@ -78,34 +77,6 @@ function getComponentBody(data, isLoading) {
           <h2>Examples</h2>
           {details.examples.map((example) => {
             return <Example example={example} />;
-            // return (
-            //   <div class={style.example}>
-            //     <h3>{example.title}</h3>
-            //     <Markdown
-            //       options={{
-            //         overrides: {
-            //           img: {
-            //             component: InlineImage,
-            //           },
-            //           code: {
-            //             component: CodeBlock,
-            //           },
-            //         },
-            //       }}
-            //     >
-            //       {example.description}
-            //     </Markdown>
-            //     {example.preview && (
-            //       <iframe
-            //         onLoad={() => {
-            //           console.log("LOADED");
-            //         }}
-            //         class={style.examplePreview}
-            //         src={example.preview}
-            //       ></iframe>
-            //     )}
-            //   </div>
-            // );
           })}
         </div>
         <div class={style.blogbody}>
