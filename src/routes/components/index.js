@@ -25,15 +25,7 @@ function getComponentsListing(data, isLoading) {
           <Link href={`/component/${component.id}`}>
             <article>
               <h2>{component.details.title}</h2>
-              <div>
-                {(
-                  component.details.tags
-                    .substr(1, component.details.tags.length - 2)
-                    .split(",") || []
-                ).map((tag) => (
-                  <span class={style.tag}>{tag}</span>
-                ))}
-              </div>
+
               <p class={style.preview}>{component.preview}</p>
             </article>
           </Link>
