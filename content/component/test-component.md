@@ -1,7 +1,26 @@
 ---
-title: Test Component
-date: 2019-09-07T05:43:53.681Z
-description: 'Lorem ipsum dolor sit amet, mei in iracundia comprehensam, dicit phaedrum ea vis. Ei purto iusto quo, nonumy honestatis usu no. Eam at lorem audire eligendi. Modus iriure dignissim has in, sed ut liber dicit mediocritatem. Et sed harum graecis, vitae admodum mel et, iracundia referrentur an sea.'
+title: Button
+date: 2022-06-14T09:42:32.189Z
+description: >-
+  
+
+  Buttons are used to initiate an action, such as submitting a form or navigating a system. They must clearly and concisely communicate their purpose and have a logical visual hierarchy using the following options:
+
+
+  * Kind (primary, secondary, tertiary)
+
+  * Action (positive, negative / destructive)
+
+  * State (enabled, active, spinner, disabled)
+
+  * Size (default, small)
+dos:
+  - Keep text labels clear and short
+  - preferably two or three words (in sentence case) describing the action or
+    destination
+  - leading with an actionable verb (such as "edit contact" "download file").
+  - Icon buttons can be used to highlight certain actions
+  - such as “download”.
 ---
 At usu tale everti philosophia, consequat gloriatur voluptatum mel cu. Ea quo tota modus debet, ad vitae consetetur conclusionemque usu. Nam cu eripuit luptatum. At posse nemore persequeris per. Mea ut aeterno vivendo, quodsi aeterno dissentiunt te cum.
 
