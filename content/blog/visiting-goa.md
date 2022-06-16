@@ -5,7 +5,7 @@ subtitle: We strive to meet the W3C Web Content Accessibility Guidelines (WCAG)
   2.1 at conformance level AA across all of GBG’s digital products and services.
   This fulfils our legal requirements under the Equality Act 2010 and
   legislation in countries where similar accessibility laws exist.
-tags: travel, india, goa
+tags: accessibility, wcag, inclusive
 ---
 ## Expectations for GBG products 
 
