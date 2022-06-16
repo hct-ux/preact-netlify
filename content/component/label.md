@@ -16,11 +16,10 @@ preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-forms-groups--form
 dos:
   - Keep labels short and functional (such as "Email address" not "What is your
     email address?").
-  - Labels must always be visible
-  - field placeholder text should only be used to complement a label.
+  - Labels must always be visible and field placeholder text should only be used
+    to complement a label.
 donts:
-  - The label itself is not help text
-  - nor should it provide instruction.
+  - The label itself is not help text nor should it provide instruction.
 examples:
   - title: Text label
     description: A simple text label with no formatting (bold, italic). When clicked
