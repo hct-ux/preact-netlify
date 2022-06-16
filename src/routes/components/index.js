@@ -7,11 +7,12 @@ import LoadableFrame from "../../components/loadable-frame";
 
 const components = (props) => {
   const [data, isLoading] = usePrerenderData(props);
+  console.log("comps", data, isLoading, props);
   const [search, setSearch] = useState("");
   return (
     <div class={style.pageBlogs}>
       <div class={style.titles}>
-        <h1 class={style.pageTitle}>Components {search}</h1>
+        <h1 class={style.pageTitle}>Components</h1>
         <label class="control control--slug" aria-label="textfield">
           <div class="control__slug">
             <i class="icon ico-search text-n700">
@@ -34,7 +35,7 @@ const components = (props) => {
             </i>
           </div>
           <input
-            onChange={(evt) => {
+            onKeyUp={(evt) => {
               setSearch(evt.target.value);
             }}
             value={search}
@@ -92,12 +93,6 @@ function getComponentsListing(components, isLoading) {
               <article class="card">
                 <div class="card__body">
                   <h2>{component.details.title}</h2>
-
-                  {/* <p class={style.preview}>{component.preview}</p> */}
-                  {/* <iframe
-                    class={style.sample}
-                    src={}
-                  /> */}
                   <LoadableFrame
                     style={{ minHeight: 50 }}
                     url={component.details.preview}
