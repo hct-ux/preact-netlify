@@ -14,10 +14,14 @@ description: >-
   * Help icon
 preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-forms-groups--form-group-text-element
 dos:
-  - Keep labels short and functional (such as "Email address" not "What is your
-    email address?").
-  - Labels must always be visible and field placeholder text should only be used
-    to complement a label.
+  - Labels must always be visible outside of their related form control
+  - Placeholder text should only be used to complement a label
+  - When clicked or tapped the label must cause its associated input to gain
+    focus
+  - Keep labels short and functional (such as “Email address” not “What is your
+    email address?” unless in a conversational context)
+  - Keep assistive text concise and action oriented. If more text is needed
+  - use the help variant
 donts:
   - The label itself is not help text nor should it provide instruction.
 examples:
