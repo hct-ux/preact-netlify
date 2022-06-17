@@ -160,6 +160,12 @@ export default class App extends Component {
                     </Match>
                     {navData.blogs.edges
                       .filter((p) => p.details.in_navigation)
+                      .sort((a, b) => {
+                        return (a.details?.nav_order ?? 999) >
+                          (b.details?.nav_order ?? 999)
+                          ? 1
+                          : -1;
+                      })
                       .map((p) => (
                         <Match path={`/blog/${p.id}`}>
                           {({ matches }) => {
