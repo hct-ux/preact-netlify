@@ -12,6 +12,8 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "In Navigation", name: "in_navigation", widget: "boolean", required: false, default: false }
+      - { label: "Navigation Order", name: "nav_order", widget: "number", required: false, default: 999 }
       - { label: "Subtitle", name: "subtitle", widget: "string", required: false}
       - { label: "Cover", name: "cover", widget: "image", required: false}
       - { label: "Tags", name: "tags", widget: "string" }

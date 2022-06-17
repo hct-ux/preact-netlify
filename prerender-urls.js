@@ -4,9 +4,12 @@ const fs = require("fs");
 const parseMD = require("parse-md").default;
 
 const [blogs, components] = generateFileList(join(__dirname, "content")).nodes;
-
+const navData = {
+  blogs,
+  components,
+};
 module.exports = () => {
-  const pages = [
+  let pages = [
     {
       url: "/",
       seo: {
@@ -79,6 +82,9 @@ module.exports = () => {
       return p;
     })
   );
+
+  pages = pages.map((p) => ({ ...p, navData }));
+  console.log(pages, "pages");
 
   return pages;
 };

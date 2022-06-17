@@ -24,6 +24,7 @@ export default class App extends Component {
   };
 
   render(props) {
+    const navData = props.CLI_DATA.preRenderData.navData;
     return (
       <Provider value={props}>
         <div id="app">
@@ -157,41 +158,69 @@ export default class App extends Component {
                         );
                       }}
                     </Match>
-                    {/* <Match path="/blogs">
-                      {({ matches }) => {
-                        let cn = matches ? "primary-nav__item--active" : "";
-                        return (
-                          <li className={`primary-nav__item ${cn}`}>
-                            <Link
-                              class="primary-nav__link"
-                              activeClassName="primary-nav__link--active"
-                              href="/blogs"
-                            >
-                              <div class="primary-nav__linktext">Blogs</div>
-                            </Link>
-                          </li>
-                        );
-                      }}
-                    </Match> */}
-                    <Match path="/components">
-                      {({ matches }) => {
-                        let cn = matches ? "primary-nav__item--active" : "";
-                        return (
-                          <li className={`primary-nav__item ${cn}`}>
-                            <Link
-                              class="primary-nav__link"
-                              activeClassName="primary-nav__link--active"
-                              href="/components"
-                            >
-                              <div class="primary-nav__linktext">
-                                Components
-                              </div>
-                            </Link>
-                          </li>
-                        );
-                      }}
-                    </Match>
+                    {navData.blogs.edges
+                      .filter((p) => p.details.in_navigation)
+                      .map((p) => (
+                        <Match path={`/blog/${p.id}`}>
+                          {({ matches }) => {
+                            let cn = matches ? "primary-nav__item--active" : "";
+                            return (
+                              <li className={`primary-nav__item ${cn}`}>
+                                <Link
+                                  class="primary-nav__link"
+                                  activeClassName="primary-nav__link--active"
+                                  href={`/blog/${p.id}`}
+                                >
+                                  <div class="primary-nav__linktext">
+                                    {p.details.title}
+                                  </div>
+                                </Link>
+                              </li>
+                            );
+                          }}
+                        </Match>
+                      ))}
 
+                    <ul class="primary-nav__section ">
+                      <Match path="/components">
+                        {({ matches }) => {
+                          let cn = matches ? "primary-nav__item--active" : "";
+                          return (
+                            <li
+                              className={`primary-nav__item primary-nav__item--title  ${cn}`}
+                            >
+                              <Link
+                                class="primary-nav__link"
+                                activeClassName="primary-nav__link--active"
+                                href="/components"
+                              >
+                                Components
+                              </Link>
+                            </li>
+                          );
+                        }}
+                      </Match>
+                      {navData.components.edges.map((c) => (
+                        <Match path={`/component/${c.id}`}>
+                          {({ matches }) => {
+                            let cn = matches ? "primary-nav__item--active" : "";
+                            return (
+                              <li className={`primary-nav__item ${cn}`}>
+                                <Link
+                                  class="primary-nav__link"
+                                  activeClassName="primary-nav__link--active"
+                                  href={`/component/${c.id}`}
+                                >
+                                  <div class="primary-nav__linktext">
+                                    {c.details.title}
+                                  </div>
+                                </Link>
+                              </li>
+                            );
+                          }}
+                        </Match>
+                      ))}
+                    </ul>
                     {/* <li class="primary-nav__item">
                       <a class="primary-nav__link">
                         <div class="primary-nav__linktext">Title</div>
@@ -204,23 +233,7 @@ export default class App extends Component {
                     </li> */}
                   </ul>
 
-                  {/* <ul class="primary-nav__section">
-                    <li class="primary-nav__item primary-nav__item--title">
-                      Section
-                    </li>
-                    <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li>
-                    <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li>
-                  </ul>
-
-                  <ul class="primary-nav__section primary-nav__section--collapsable">
+                  {/*   <ul class="primary-nav__section primary-nav__section--collapsable">
                     <li class="primary-nav__item primary-nav__item--title primary-nav__item--collapsable">
                       Section
                       <span class="primary-nav__counter">(3)</span>
