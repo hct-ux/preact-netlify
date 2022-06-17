@@ -12,7 +12,7 @@ description: >-
   * Assistive (single)
 
   * Group
-preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-controls--checkbox-elements
+preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-forms-groups--form-group-checkbox-element
 dos:
   - Checkboxes should behave independently from one another.
   - A single checkbox should be used where a user needs to indicate agreement
