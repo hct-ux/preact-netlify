@@ -84,7 +84,6 @@ module.exports = () => {
   );
 
   pages = pages.map((p) => ({ ...p, navData }));
-  console.log(pages, "pages");
 
   return pages;
 };

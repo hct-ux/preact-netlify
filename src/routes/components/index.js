@@ -7,7 +7,6 @@ import LoadableFrame from "../../components/loadable-frame";
 
 const components = (props) => {
   const [data, isLoading] = usePrerenderData(props);
-  console.log("comps", data, isLoading, props);
   const [search, setSearch] = useState("");
   return (
     <div class={style.pageBlogs}>
@@ -39,7 +38,7 @@ const components = (props) => {
               setSearch(evt.target.value);
             }}
             value={search}
-            placeholder="Slug"
+            placeholder="Search"
             type="text"
           />
           <i
