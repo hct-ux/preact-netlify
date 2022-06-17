@@ -1,6 +1,8 @@
 ---
 title: Accessibility
 date: 2019-09-07T05:43:53.681Z
+in_navigation: true
+nav_order: 2
 subtitle: We strive to meet the W3C Web Content Accessibility Guidelines (WCAG)
   2.1 at conformance level AA across all of GBG’s digital products and services.
   This fulfils our legal requirements under the Equality Act 2010 and
