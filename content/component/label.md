@@ -15,7 +15,7 @@ description: >-
   * Kind (default, assistive)
 
   * With help
-preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-forms-groups--form-group-text-element
+preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-controls--icon-label&knob-Content=Label%20*
 dos:
   - Labels must always be visible outside of their related form control
   - Placeholder text should only be used to complement a label
