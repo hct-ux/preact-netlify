@@ -13,7 +13,9 @@ donts:
     only 1 or 2 levels deep
 examples:
   - title: Default
-    preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules--breadcrumb-element
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules--breadcrumb-element&nav=0
+    description: "There is no limit to the number of levels in a breadcrumb. "
+  - title: Options
     description: Breadcrumbs have no additional options.
 status: under review
 ---
