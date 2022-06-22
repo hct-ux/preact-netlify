@@ -1,10 +1,8 @@
 ---
 title: Text field
 date: 2022-06-15T08:19:41.519Z
-description: >-
-  
-
-  The text field allows input of a single line of text, supporting alphanumeric characters and symbols.
+description: The text field allows input of a single line of text, supporting
+  alphanumeric characters and symbols.
 preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-controls--input-elements
 dos:
   - Ensure the input uses an appropriate “type” attribute such as email or phone
