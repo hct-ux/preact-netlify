@@ -40,6 +40,6 @@ collections:
       - label: "Status"
         name: "status"
         widget: "select"
-        options: ["under review", "coming soon", "deprecated"]
+        options: ["coming soon", "under review", "live", "deprecated", "removed"]
 
 
