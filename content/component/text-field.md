@@ -22,7 +22,7 @@ donts:
   - Don't include a clear button unless there is a clear benefit. Adding
     unnecessary interactions will contribute to cognitive load
 examples:
-  - title: Default
+  - title: " "
     description: Use to allow text input when the expected information is short. The
       input’s width can be restricted according to the expected input.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-text-element&nav=0
