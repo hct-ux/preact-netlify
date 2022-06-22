@@ -4,35 +4,23 @@ date: 2022-06-15T08:19:41.519Z
 description: >-
   
 
-  The text field allows input of a single line of text. It supports several text formats including numbers with the following options:
-
-
-  * State (default, success, error, disabled)
-
-  * With clear
-
-  * Size (default, small)
+  The text field allows input of a single line of text, supporting alphanumeric characters and symbols.
 preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-controls--input-elements
 dos:
-  - Text fields with a standard character length (such as dates
-  - phone numbers
-  - post codes) should have their width and input restricted appropriately.
-  - Ensure the input uses an appropriate “type” attribute
-  - such as email
-  - telephone
-  - number
-  - see more examples.
+  - Ensure the input uses an appropriate “type” attribute such as email or phone
+    number
+  - Restrict the width and input for standard formats such as dates; phone
+    numbers; post codes
   - Update the success and error states only after an input has been completed
     (not during entry).
-  - Use placeholder text to demonstrate an example
-  - such as an account number or full URL.
+  - Use placeholder text to demonstrate an example such as an account number or
+    full URL.
 donts:
-  - If the input is likely to exceed 50 characters
-  - use a textarea (add link) instead.
+  - If the input is likely to exceed 50 characters use a textarea instead
   - Avoid using a placeholder for information that’s critical to completing the
-    field.
-  - Only use the clear button when there is a very clear benefit. Adding
-    unnecessary interactions will contribute to cognitive load.
+    field
+  - Don't include a clear button unless there is a clear benefit. Adding
+    unnecessary interactions will contribute to cognitive load
 examples:
   - title: Default
     description: Use to allow text input when the expected information is short. The
@@ -55,4 +43,5 @@ examples:
     description: Small inputs have less top and bottom padding and can be used when
       the default size is not appropriate, or to avoid excessive vertical white
       space.
+status: under review
 ---
