@@ -41,5 +41,6 @@ collections:
         name: "status"
         widget: "select"
         options: ["coming soon", "under review", "live", "deprecated", "removed"]
+        default: ["coming soon"]
 
 

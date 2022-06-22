@@ -78,6 +78,32 @@ const components = (props) => {
   );
 };
 
+function getStatusBadge(component) {
+  let text = component?.status ?? "coming soon";
+  let aClass = "";
+  switch (text) {
+    case "coming soon":
+      aClass = "pill--warn";
+      break;
+    case "under review":
+      aClass = "pill--warn";
+      break;
+    case "live":
+      aClass = "pill--success";
+      break;
+    case "deprecated":
+      aClass = "pill--error";
+      break;
+    case "removed":
+      aClass = "pill--error";
+      break;
+    default:
+      aClass = "pill--info";
+      break;
+  }
+  return <div class={`pill pill--square ${aClass}`}>{text}</div>;
+}
+
 function getComponentsListing(components, isLoading) {
   if (isLoading) {
     return <div class="spinner"></div>;
@@ -89,11 +115,14 @@ function getComponentsListing(components, isLoading) {
         {components.map((component) => {
           return (
             <Link href={`/component/${component.id}`}>
-              <article class="card">
-                <div class="card__body">
+              <article class={`card ${style.card}`}>
+                <div class={`card__head ${style.CardHead}`}>
                   <h2>{component.details.title}</h2>
+                  {getStatusBadge(component.details)}
+                </div>
+                <div class={`card__body ${style.CardBody}`}>
                   <LoadableFrame
-                    style={{ minHeight: 50 }}
+                    style={{ minHeight: 200 }}
                     url={component.details.preview}
                   />
                 </div>
