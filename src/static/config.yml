@@ -37,5 +37,9 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Description", name: "description", widget: "markdown" }
           - { label: "Preview", name: "preview", widget: "string", required: false }
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["under review", "coming soon", "deprecated"]
 
 
