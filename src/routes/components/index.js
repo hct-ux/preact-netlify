@@ -4,6 +4,7 @@ import { Link } from "preact-router";
 import { usePrerenderData } from "@preact/prerender-data-provider";
 import style from "./style";
 import LoadableFrame from "../../components/loadable-frame";
+import StatusBadge from "../../components/status-badge";
 
 const components = (props) => {
   const [data, isLoading] = usePrerenderData(props);
@@ -78,32 +79,6 @@ const components = (props) => {
   );
 };
 
-function getStatusBadge(component) {
-  let text = component?.status ?? "coming soon";
-  let aClass = "";
-  switch (text) {
-    case "coming soon":
-      aClass = "pill--warn";
-      break;
-    case "under review":
-      aClass = "pill--warn";
-      break;
-    case "live":
-      aClass = "pill--success";
-      break;
-    case "deprecated":
-      aClass = "pill--error";
-      break;
-    case "removed":
-      aClass = "pill--error";
-      break;
-    default:
-      aClass = "pill--info";
-      break;
-  }
-  return <div class={`pill pill--square ${aClass}`}>{text}</div>;
-}
-
 function getComponentsListing(components, isLoading) {
   if (isLoading) {
     return <div class="spinner"></div>;
@@ -118,7 +93,7 @@ function getComponentsListing(components, isLoading) {
               <article class={`card ${style.card}`}>
                 <div class={`card__head ${style.CardHead}`}>
                   <h2>{component.details.title}</h2>
-                  {getStatusBadge(component.details)}
+                  <StatusBadge component={component.details} />
                 </div>
                 <div class={`card__body ${style.CardBody}`}>
                   <LoadableFrame
