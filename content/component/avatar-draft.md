@@ -1,12 +1,8 @@
 ---
 title: Avatar (draft)
 date: 2022-06-22T11:01:46.623Z
-description: >-
-  A fixed-size circular representation of a system user, containing either an
-  image or up to two letters representing the user’s name. Options as follows:	 
-
-
-  * Size (default, small)
+description: A fixed-size circular representation of a system user, containing
+  either an image or up to two letters representing the user’s name.
 preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-avatars--avatar-element
 dos:
   - If an image is available, use this instead of initials
