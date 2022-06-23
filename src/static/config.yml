@@ -27,6 +27,7 @@ collections:
       - { label: "Title", name: "title", widget: "string"}
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "markdown" }
+      - { label: "Integration details", name: "integration", widget: "markdown", required: false }
       - { label: "Preview", name: "preview", widget: "string", required: false}
       - { label: "Do's", name: "dos", widget: "list", field: { label: Do, name: do, widget: string } }
       - { label: "Dont's", name: "donts", widget: "list", field: { label: Dont, name: dont, widget: string } }

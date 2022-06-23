@@ -78,4 +78,9 @@
 .badges {
   display: flex;
   gap: 8px;
+  margin-bottom: 32px;
+}
+
+.content {
+  margin-top: 48px;
 }
