@@ -15,10 +15,10 @@ donts:
   - Don't include more than two letters
 examples:
   - title: Initials
-    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-avatars--avatar-element
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-avatars--avatar-element&nav=0
     description: Available in 32px or 24px sizes
   - title: Image
-    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-avatars--avatar-image-element
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-avatars--avatar-image-element&nav=0
     description: Available in 32px or 24px sizes
 status: under review
 ---
