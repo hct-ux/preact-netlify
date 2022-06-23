@@ -186,50 +186,53 @@ export default class App extends Component {
                           }}
                         </Match>
                       ))}
-
-                    <ul class="primary-nav__section ">
-                      <Match path="/components">
-                        {({ matches }) => {
-                          let cn = matches ? "primary-nav__item--active" : "";
-                          return (
-                            <li
-                              className={`primary-nav__item primary-nav__item--title  ${cn}`}
-                            >
-                              <Link
-                                class="primary-nav__link"
-                                activeClassName="primary-nav__link--active"
-                                href="/components"
-                              >
-                                Components
-                              </Link>
-                              <span class="primary-nav__counter">
-                                ({navData.components.edges.length})
-                              </span>
-                            </li>
-                          );
-                        }}
-                      </Match>
-                      {navData.components.edges.map((c) => (
-                        <Match path={`/component/${c.id}`}>
+                    <li>
+                      <ul class="primary-nav__section ">
+                        <Match path="/components">
                           {({ matches }) => {
                             let cn = matches ? "primary-nav__item--active" : "";
                             return (
-                              <li className={`primary-nav__item ${cn}`}>
+                              <li
+                                className={`primary-nav__item primary-nav__item--title  ${cn}`}
+                              >
                                 <Link
                                   class="primary-nav__link"
                                   activeClassName="primary-nav__link--active"
-                                  href={`/component/${c.id}`}
+                                  href="/components"
                                 >
-                                  <div class="primary-nav__linktext">
-                                    {c.details.title}
-                                  </div>
+                                  Components
                                 </Link>
+                                <span class="primary-nav__counter">
+                                  ({navData.components.edges.length})
+                                </span>
                               </li>
                             );
                           }}
                         </Match>
-                      ))}
-                    </ul>
+                        {navData.components.edges.map((c) => (
+                          <Match path={`/component/${c.id}`}>
+                            {({ matches }) => {
+                              let cn = matches
+                                ? "primary-nav__item--active"
+                                : "";
+                              return (
+                                <li className={`primary-nav__item ${cn}`}>
+                                  <Link
+                                    class="primary-nav__link"
+                                    activeClassName="primary-nav__link--active"
+                                    href={`/component/${c.id}`}
+                                  >
+                                    <div class="primary-nav__linktext">
+                                      {c.details.title}
+                                    </div>
+                                  </Link>
+                                </li>
+                              );
+                            }}
+                          </Match>
+                        ))}
+                      </ul>
+                    </li>
                   </ul>
                 </div>
               </nav>
