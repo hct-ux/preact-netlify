@@ -4,16 +4,19 @@ date: 2022-06-22T11:02:14.001Z
 description: >-
   Notifications provide key contextual information, such as system status,
   global or page-level error messaging or the successful completion of a
-  performed action. Includes the following options: 
+  performed action.
 
 
-  * Level (global, inline, toast)
+  All notifications (global, inline and toast) have four possible states:
 
-  * State
-    - Info: neutral updates such as helpful information
-    - Success: positive updates such as an action that has been successfully completed
-    - Warn: a mild warning which does not require the user to take any action, such as a notification of upcoming system downtime
-    - Error: a major warning which usually requires the user to act, such as a form error
+
+  * **Info:** Neutral updates such as helpful information
+
+  * **Success:** Positive updates such as an action that has been successfully completed
+
+  * **Warn:** A mild warning which does not require the user to take any action
+
+  * **Error:** A major warning, such as an error or event that requires the user to act
 preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-notifications--global-notification-element
 dos:
   - Ensure that the wording of the notification message clearly conveys its
@@ -29,11 +32,10 @@ donts:
 examples:
   - title: Global
     preview: https://ds.gbgplc.com/react/?path=/story/molecules-notifications--global-notification-element
-    description: "Global level notifications are for things that affect the whole
-      product or experience, such as outage information, account or
-      product-level updates (such as a customer’s trial status). This should
-      always appear at the very top of the viewport, above any navigation or top
-      bar components. "
+    description: Global notifications are for things that affect the whole product
+      or experience, such as outage information, account or product-level
+      updates (such as a customer’s trial status). This should always appear at
+      the very top of the screen, above any navigation or top bar components.
   - title: Inline
     description: "Inline notifications are for things that affect the current page
       or component, rather than the whole system. This should appear within
