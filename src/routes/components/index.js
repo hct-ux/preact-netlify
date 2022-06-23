@@ -101,6 +101,7 @@ function getComponentsListing(components, isLoading) {
                 </div>
                 <div class={`card__body ${style.CardBody}`}>
                   <LoadableFrame
+                    title={`Preview for ${component.details.title}`}
                     style={{ minHeight: 200 }}
                     url={component.details.preview}
                   />

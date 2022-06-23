@@ -48,29 +48,10 @@ const example = (props) => {
         {props.example.description}
       </Markdown>
       {props.example.preview && (
-        <LoadableFrame url={props.example.preview} />
-        // <div
-        //   class={`${style.previewContainer} ${
-        //     loading ? style.previewContainerLoading : ""
-        //   }`}
-        // >
-        //   <iframe
-        //     onLoad={() => {
-        //       setLoading(false);
-        //     }}
-        //     class={`${style.examplePreview} ${
-        //       loading ? style.previewLoading : ""
-        //     }`}
-        //     src={props.example.preview}
-        //   ></iframe>
-        //   <div
-        //     class="spinner"
-        //     style={{ display: loading ? "block" : "none" }}
-        //   ></div>
-        //   <span style={{ display: loading ? "block" : "none" }}>
-        //     Loading preview...
-        //   </span>
-        // </div>
+        <LoadableFrame
+          title={`Preview for example ${props.example.title}`}
+          url={props.example.preview}
+        />
       )}
     </div>
   );
