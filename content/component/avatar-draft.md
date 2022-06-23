@@ -1,5 +1,5 @@
 ---
-title: Avatar (draft)
+title: Avatar
 date: 2022-06-22T11:01:46.623Z
 description: A fixed-size circular representation of a system user, containing
   either an image or up to two letters representing the user’s name.
