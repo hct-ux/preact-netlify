@@ -202,6 +202,9 @@ export default class App extends Component {
                               >
                                 Components
                               </Link>
+                              <span class="primary-nav__counter">
+                                ({navData.components.edges.length})
+                              </span>
                             </li>
                           );
                         }}
@@ -227,61 +230,7 @@ export default class App extends Component {
                         </Match>
                       ))}
                     </ul>
-                    {/* <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li>
-                    <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li> */}
                   </ul>
-
-                  {/*   <ul class="primary-nav__section primary-nav__section--collapsable">
-                    <li class="primary-nav__item primary-nav__item--title primary-nav__item--collapsable">
-                      Section
-                      <span class="primary-nav__counter">(3)</span>
-                      <i
-                        class="icon ico-chevron-down-16"
-                        style="width: 16px; height: 16px;"
-                      >
-                        <svg
-                          width="16px"
-                          height="16px"
-                          viewBox="0 0 16 16"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="icon ico-chevron-down-16"
-                          style="width: 16px; height: 16px;"
-                        >
-                          <path
-                            d="M13 6L8 11L3 6"
-                            stroke="rgb(0, 13, 26)"
-                            stroke-width="2px"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          ></path>
-                        </svg>
-                      </i>
-                    </li>
-                    <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li>
-                    <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li>
-                    <li class="primary-nav__item">
-                      <a class="primary-nav__link">
-                        <div class="primary-nav__linktext">Title</div>
-                      </a>
-                    </li>
-                  </ul> */}
                 </div>
               </nav>
             </div>
