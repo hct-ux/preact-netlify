@@ -4,6 +4,7 @@ import { usePrerenderData } from "@preact/prerender-data-provider";
 import Markdown from "markdown-to-jsx";
 import Example from "../../components/example";
 import StatusBadge from "../../components/status-badge";
+import WCAGStatusBadge from "../../components/wcag-status-badge";
 import style from "./style";
 
 const component = (props) => {
@@ -50,7 +51,10 @@ function getComponentBody(data, isLoading) {
     return (
       <div>
         <h1 class={style.blogtitle}>{details.title}</h1>
-        <StatusBadge component={details} />
+        <div class={style.badges}>
+          <StatusBadge component={details} />
+          <WCAGStatusBadge component={details} />
+        </div>
         <h2 class="m-m-t-8">Description</h2>
         <Markdown
           options={{

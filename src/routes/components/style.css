@@ -82,3 +82,8 @@ h2 {
 .card {
   width: 100%;
 }
+
+.badges {
+  display: flex;
+  gap: 8px;
+}

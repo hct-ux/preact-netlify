@@ -5,6 +5,7 @@ import { usePrerenderData } from "@preact/prerender-data-provider";
 import style from "./style";
 import LoadableFrame from "../../components/loadable-frame";
 import StatusBadge from "../../components/status-badge";
+import WCAGStatusBadge from "../../components/wcag-status-badge";
 
 const components = (props) => {
   const [data, isLoading] = usePrerenderData(props);
@@ -93,7 +94,10 @@ function getComponentsListing(components, isLoading) {
               <article class={`card ${style.card}`}>
                 <div class={`card__head ${style.CardHead}`}>
                   <h2>{component.details.title}</h2>
-                  <StatusBadge component={component.details} />
+                  <div class={style.badges}>
+                    <StatusBadge component={component.details} />
+                    <WCAGStatusBadge component={component.details} />
+                  </div>
                 </div>
                 <div class={`card__body ${style.CardBody}`}>
                   <LoadableFrame

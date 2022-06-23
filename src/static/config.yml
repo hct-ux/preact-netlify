@@ -42,5 +42,10 @@ collections:
         widget: "select"
         options: ["coming soon", "under review", "live", "deprecated", "removed"]
         default: ["coming soon"]
+      - label: "WCAG Status"
+        name: "wcag"
+        widget: "select"
+        options: ["WCAG Not reviewed", "WCAG A", "WCAG AA", "WCAG AAA"]
+        default: ["WCAG Not reviewed"]
 
 

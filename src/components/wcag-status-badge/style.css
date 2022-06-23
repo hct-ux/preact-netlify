@@ -1,0 +1,30 @@
+.example {
+  display: grid;
+}
+
+.examplePreview {
+  border: 0;
+  width: 100%;
+  min-height: 500px;
+}
+
+.previewLoading {
+  display: none;
+}
+
+.previewContainer {
+  min-height: 500px;
+  margin-top: 16px;
+}
+
+.previewContainerLoading {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  gap: 16px;
+}
+
+.previewContainer .spinner {
+  position: absolute;
+}
