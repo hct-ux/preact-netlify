@@ -1,5 +1,5 @@
 ---
-title: Breadcrumb (draft)
+title: Breadcrumb
 date: 2022-06-22T11:02:05.109Z
 description: A breadcrumb trail is used to help customers identify their
   location with the product’s navigation structure.
@@ -15,7 +15,5 @@ examples:
   - title: Default
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules--breadcrumb-element&nav=0
     description: "There is no limit to the number of levels in a breadcrumb. "
-  - title: Options
-    description: Breadcrumbs have no additional options.
 status: under review
 ---
