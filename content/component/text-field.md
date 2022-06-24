@@ -27,19 +27,19 @@ examples:
   - title: Success
     description: Use to indicate valid input. Only use this if you can be confident
       that the input meets all validation rules.
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--input-elements&nav=0&knob-Icon=check
   - title: Error
     description: Use to indicate invalid input. A short text description of the
       error must always accompany the visual error indicator.
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--input-elements&nav=0&knob-Error?=true
   - title: With clear
     description: Allows the field to be cleared in a single interaction. This is
       generally useful if people are likely to iterate on the field value, such
       as when filtering a table of data.
-  - title: Small
-    description: Small inputs have less top and bottom padding and can be used when
-      the default size is not appropriate, or to avoid excessive vertical white
-      space.
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--input-elements&nav=0&knob-Clearable?=true
   - title: Disabled
     description: Prevents entry into the field.
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--input-elements&nav=0&knob-Disabled?=true
 status: live
 wcag: WCAG Not reviewed
 ---
