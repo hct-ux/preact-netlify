@@ -1,5 +1,5 @@
 ---
-title: Notifications (draft)
+title: Notifications
 date: 2022-06-22T11:02:14.001Z
 description: >-
   Notifications provide key contextual information, such as system status,
@@ -26,7 +26,7 @@ dos:
   - Notifications should be actionable when appropriate such as including a link
     to “undo” or view relevant information
 donts:
-  - Avoid stacking multiple global or inline notifications unless necessary
+  - Avoid stacking multiple global or inline notifications
   - On toast notifications, don’t change the animation settings or reduce the
     duration to below the default number of seconds
 examples:
@@ -49,4 +49,5 @@ examples:
       attention. "
     preview: https://ds.gbgplc.com/react/?path=/story/molecules--toast-element&nav=0
 status: under review
+wcag: WCAG Not reviewed
 ---
