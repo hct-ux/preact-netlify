@@ -48,6 +48,6 @@ examples:
       the message immediately and in way that’s likely to get the user’s
       attention. "
     preview: https://ds.gbgplc.com/react/?path=/story/molecules--toast-element&nav=0
-status: under review
+status: live
 wcag: WCAG Not reviewed
 ---
