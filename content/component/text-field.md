@@ -24,35 +24,22 @@ examples:
     description: Use to allow text input when the expected information is short. The
       input’s width can be restricted according to the expected input.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-text-element&nav=0
-  - title: Options
-    description: >-
-      #### Success
-
-
-      Use to indicate valid input. Only use this if you can be confident that the input meets all validation rules.
-
-
-      #### Error
-
-
-      Use to indicate invalid input. A short text description of the error must always accompany the visual error indicator.
-
-
-      #### Disabled
-
-
-      Prevents entry into the field.
-
-
-      #### With clear
-
-
-      Allows the field to be cleared in a single interaction. This is generally useful if people are likely to iterate on the field value, such as when filtering a table of data.
-
-
-      #### Small
-
-
-      Small inputs have less top and bottom padding and can be used when the default size is not appropriate, or to avoid excessive vertical white space.
-status: under review
+  - title: Success
+    description: Use to indicate valid input. Only use this if you can be confident
+      that the input meets all validation rules.
+  - title: Error
+    description: Use to indicate invalid input. A short text description of the
+      error must always accompany the visual error indicator.
+  - title: With clear
+    description: Allows the field to be cleared in a single interaction. This is
+      generally useful if people are likely to iterate on the field value, such
+      as when filtering a table of data.
+  - title: Small
+    description: Small inputs have less top and bottom padding and can be used when
+      the default size is not appropriate, or to avoid excessive vertical white
+      space.
+  - title: Disabled
+    description: Prevents entry into the field.
+status: live
+wcag: WCAG Not reviewed
 ---
