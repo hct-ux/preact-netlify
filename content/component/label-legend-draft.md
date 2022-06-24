@@ -19,7 +19,10 @@ examples:
     title: Single
     preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--switch-elements&nav=0
   - title: Group
-    description: A set of switches, stacked vertically.
+    description: |-
+      A set of switches, stacked vertically.
+
+      [Example needed]
 status: under review
 wcag: WCAG Not reviewed
 ---
