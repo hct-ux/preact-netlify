@@ -24,6 +24,8 @@ examples:
   - title: "[remove this heading]"
     description: "[remove this text]"
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--button-element&nav=0&knob-Kind=primary
+  - title: Options
+    description: "[remove this text]"
   - title: Secondary
     description: Used for supporting or standalone actions (such as "back"
       "bookmark" "download").
@@ -59,7 +61,7 @@ examples:
       preventing an action. The text label is optional but preferred. If a
       button is likely to remain in a spinner state for more than 10 seconds,
       provide additional feedback (such as a notification).
-    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--button-element&nav=0&knob-Worker?=true&knob-Active?=true
+    preview: ""
 status: live
 wcag: WCAG Not reviewed
 ---
