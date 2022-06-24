@@ -23,6 +23,8 @@ examples:
       A set of switches, stacked vertically.
 
       [Example needed]
+  - title: Disabled
+    description: Prevents interaction, can be disabled in either the on or off state.
 status: under review
 wcag: WCAG Not reviewed
 ---
