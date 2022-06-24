@@ -1,5 +1,5 @@
 ---
-title: Button
+title: Button (1)
 date: 2022-06-24T12:28:12.791Z
 description: Buttons are used to initiate an action, such as submitting a form
   or navigating a system. They must clearly and concisely communicate their
