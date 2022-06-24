@@ -1,30 +1,20 @@
 ---
 title: Checkbox
 date: 2022-06-15T08:04:33.335Z
-description: >-
-  
-
-  Checkboxes allow users to indicate a preference or make selections (zero, one or more) from a list, with the following options:
-
-
-  * State (default, error, disabled)
-
-  * Assistive (single)
-
-  * Group
+description: Checkboxes allow users to indicate a preference or make selections
+  (zero, one or more) from a list.
 preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-forms-groups--form-group-checkbox-element
 dos:
-  - Checkboxes should behave independently from one another.
+  - Checkboxes should behave independently from one another
   - A single checkbox should be used where a user needs to indicate agreement
     (for example to terms and conditions) before proceeding. This is different
-    to expressing a preference in which case a switch (link) should be used.
-  - The checkbox itself
-  - and its container are clickable
-  - to provide a larger target area
+    to expressing a preference in which case a switch should be used
+  - The checkbox itself and its container are clickable, to provide a larger
+    target area
 donts:
   - Don’t use for mutually exclusive options - use radio buttons or a select
-    instead.
-  - Don’t use a negative statement for a checkbox label.
+    instead
+  - Don’t use a negative statement for a checkbox label
 examples:
   - title: Default (single)
     description: A single checkbox.
@@ -45,4 +35,6 @@ examples:
       unchecked states.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--checkbox-elements&knob-Disabled?=true&nav=0
     title: Disabled
+status: live
+wcag: WCAG AAA
 ---
