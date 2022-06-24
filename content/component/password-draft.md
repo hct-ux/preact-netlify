@@ -1,20 +1,14 @@
 ---
-title: Password (draft)
+title: Password
 date: 2022-06-22T10:57:10.685Z
-description: >-
-  The password field allows entry of a single password and supports the
-  following options: 
-
-
-  * State (default, error, disabled) 
-
-  * Policy
+description: The password field allows entry of a single password, the policy
+  requirement list is optional.
 preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-controls--password-elements
 dos:
   - Consider using the password field for any particularly sensitive form
-    information - for example - answers to backup security questions
+    information, for example answers to backup security questions
   - By default the password must always be masked whether or not the password
-    field has the “Visible” option enabled
+    field has the “visible” option enabled
   - Include the policy only when creating a new password - not when confirming
     an existing one
 donts:
@@ -28,5 +22,6 @@ examples:
 
       A set of rules that reflect the password policy. These must reflect all coded validation rules, such as password length and character requirements (numbers, special characters, etc). 
     preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--password-elements
-status: under review
+status: live
+wcag: WCAG Not reviewed
 ---
