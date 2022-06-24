@@ -6,11 +6,11 @@ description: A fixed-size circular representation of a system user, containing
 preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-avatars--avatar-element
 dos:
   - If an image is available, use this instead of initials
-  - When an image is not available up to two letters can be used instead. If the
-    name contains two words (such as first and last name) this is the first
-    capitalized letter of each
-  - When neither image nor initials are unavailable the circle should contain no
-    letters
+  - When an image is not available, up to two letters can be used instead. If
+    the name contains two words (such as first and last name) this is the first
+    capitalised letter of each
+  - When neither image nor initials are unavailable, the circle should contain
+    no letters
 donts:
   - Don't include more than two letters
 examples:
@@ -20,5 +20,6 @@ examples:
   - title: Image
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-avatars--avatar-image-element&nav=0
     description: Available in 32px or 24px sizes
-status: under review
+status: live
+wcag: WCAG AAA
 ---
