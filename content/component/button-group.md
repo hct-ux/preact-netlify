@@ -13,8 +13,8 @@ dos:
     interpretation
 donts:
   - Don't include multiple primary buttons in the same group
-  - Within a button group where the primary action has no icon, avoid using
-    icons on secondary and tertiary buttons
+  - When the primary action has no icon, don't use icons on other buttons in the
+    same group
 examples:
   - title: Standard
     description: A standard button group
