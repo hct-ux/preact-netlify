@@ -1,11 +1,7 @@
 ---
 title: Select (draft)
 date: 2022-06-22T11:00:19.359Z
-description: |-
-  Select allows a single choice from a list, with the following options: 
-
-  * State (default, error, disabled) 
-  * Size (default, small)
+description: Select allows a single choice from a list.
 preview: https://ds.gbgplc.com/react/iframe.html?id=/story/atoms-controls--select-elements
 dos:
   - If you have fewer than five options consider using radio buttons or a toggle
@@ -29,5 +25,11 @@ examples:
     preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--select-elements
     description: "Use to allow selection from a long list of items. The select’s
       width can be restricted according to the expected input. "
-status: under review
+  - title: Disabled
+    description: >
+      Prevents interaction, can be disabled in either the empty or populated
+      state.
+    preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--select-elements&nav=0&knob-Disabled?=true
+status: live
+wcag: WCAG AAA
 ---
