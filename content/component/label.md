@@ -9,12 +9,7 @@ description: >-
   label, and the whole group can be described by a legend. 
 
 
-  Both labels and legends can be extended to provide extra guidance, with the following options:
-
-
-  * Kind (default, assistive)
-
-  * With help
+  Both labels and legends can be extended to provide extra guidance, using assistive text or a help action.
 preview: https://ds.gbgplc.com/react/iframe.html?id=atoms-controls--icon-label&knob-Content=Label%20*
 dos:
   - Labels must always be visible outside of their related form control
@@ -23,10 +18,10 @@ dos:
     focus
   - Keep labels short and functional (such as “Email address” not “What is your
     email address?” unless in a conversational context)
-  - Keep assistive text concise and action oriented. If more text is needed
-  - use the help variant
+  - Keep assistive text concise and action oriented. If more text is needed, use
+    the help variant
 donts:
-  - The label itself is not help text nor should it provide instruction.
+  - The label itself is not help text nor should it provide lengthy instruction
 examples:
   - title: Default
     description: A simple text label with no formatting (bold, italic). All labels
@@ -45,4 +40,6 @@ examples:
       interaction, but the help icon can be useful for cases where longer
       additional guidance is necessary, or when screen space is at a premium.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-text-element&nav=0
+status: live
+wcag: WCAG Not reviewed
 ---
