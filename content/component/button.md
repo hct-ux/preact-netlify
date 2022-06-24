@@ -58,9 +58,9 @@ examples:
       provide additional feedback (such as a notification).
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--button-element&nav=0&knob-Worker?=true&knob-Active?=true
   - title: Disabled
-    description: Disabled buttons should generally be avoided. When a person tries
-      to interact with a disabled button, the system should provide feedback as
-      to why the interaction isn’t possible.
+    description: Prevents interaction, disabled buttons should generally be avoided.
+      When a person tries to interact with a disabled button, the system should
+      provide feedback as to why the interaction isn’t possible.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--button-element&nav=0&knob-Disabled?=true
 status: live
 wcag: WCAG Not reviewed
