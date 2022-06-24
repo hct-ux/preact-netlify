@@ -1,5 +1,5 @@
 ---
-title: Select (draft)
+title: Select
 date: 2022-06-22T11:00:19.359Z
 description: Select allows a single choice from a list.
 preview: https://ds.gbgplc.com/react/iframe.html?id=/story/atoms-controls--select-elements
