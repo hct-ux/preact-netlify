@@ -24,8 +24,8 @@ examples:
       error must always accompany the visual error indicator.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-radio-list-element&nav=0&knob-Error?=true
   - title: Disabled
-    description: Prevents interaction, can be disabled in either the checked or
-      unchecked states.
+    description: Prevents interaction, can be disabled in either the selected or
+      unselected state.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--radio-elements&knob-Removable?=true&knob-Type=info&knob-Shape=rounded&knob-Content=Pill%20Content&knob-Disabled?=true&nav=0
 status: live
 wcag: WCAG AAA
