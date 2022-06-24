@@ -1,14 +1,8 @@
 ---
 title: Radio
 date: 2022-06-17T08:46:03.351Z
-description: >-
-  Radios allow users to indicate a preference or make a selection from a short
-  list, with the following options: 
-
-
-  * State (default, error, disabled) 
-
-  * Horizontal
+description: Radios allow users to indicate a preference or make a selection
+  from a short list.
 preview: https://ds.gbgplc.com/react/iframe.html?id=molecules-forms-groups--form-group-radio-list-element
 dos:
   - Radios are best for 2-8 options and often preferable over selects due to all
@@ -32,4 +26,7 @@ examples:
   - title: Disabled
     description: Prevents interaction, can be disabled in either the checked or
       unchecked states.
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--radio-elements&knob-Removable?=true&knob-Type=info&knob-Shape=rounded&knob-Content=Pill%20Content&knob-Disabled?=true&nav=0
+status: live
+wcag: WCAG AAA
 ---
