@@ -40,6 +40,6 @@ examples:
       interaction, but the help icon can be useful for cases where longer
       additional guidance is necessary, or when screen space is at a premium.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-text-element&nav=0
-status: live
+status: under review
 wcag: WCAG Not reviewed
 ---
