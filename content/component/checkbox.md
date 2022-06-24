@@ -32,7 +32,7 @@ examples:
       error must always accompany the visual error indicator.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-checkbox-complex-element&knob-Error?=true&nav=0
   - description: Prevents interaction, can be disabled in either the checked or
-      unchecked states.
+      unchecked state.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--checkbox-elements&knob-Disabled?=true&nav=0
     title: Disabled
 status: live
