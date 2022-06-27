@@ -22,7 +22,8 @@ donts:
 examples:
   - title: Default
     description: Use to allow text input when the expected information is short. The
-      input’s width can be restricted according to the expected input.
+      input’s width can be restricted according to known input length e.g. a
+      postcode, phone number, etc.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-text-element&nav=0
   - title: Success
     description: Use to indicate valid input. Only use this if you can be confident
