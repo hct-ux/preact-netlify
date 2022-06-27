@@ -16,7 +16,8 @@ examples:
   - title: Default
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--toggle-button-group-element&nav=0&knob-Number%20of%20buttons=3
     description: Items can contain a text label, an icon, or both together.
-  - description: Small groups can be used when the default size is not appropriate.
+  - description: Small groups can be used when the default size is not appropriate,
+      or to increase the density of content.
     title: Small
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--toggle-button-group-element&nav=0&knob-Number%20of%20buttons=3&knob-Size=small
 status: live
