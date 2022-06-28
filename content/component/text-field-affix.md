@@ -17,6 +17,7 @@ examples:
   - title: Text prefix
     description: A text field with a prefix containing a text symbol or short string
       (such as https:// or £)
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-controls--slug-text-elements&nav=0
 status: under review
 wcag: WCAG Not reviewed
 ---
