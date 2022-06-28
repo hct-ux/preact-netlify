@@ -14,7 +14,7 @@ dos:
 donts:
   - Don't use placeholder text
 examples:
-  - title: Example with policy
+  - title: With policy
     description: >-
       A standard width Textfield [link] showing dots in place of characters,
       with a visibility toggle. 
