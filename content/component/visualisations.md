@@ -17,7 +17,7 @@ donts:
 examples:
   - title: Generic chart
     description: There are many different chart types, such as bar, line, donut and
-      histogram. Change the config to see them here.
+      histogram.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-visualisations--chart-example&nav=0
 status: live
 wcag: WCAG Not reviewed
