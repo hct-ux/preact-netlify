@@ -10,6 +10,6 @@ examples:
     description: There are many different chart types, such as bar, line, donut and
       histogram. Change the config to see them here.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-visualisations--chart-example&nav=0
-status: under review
+status: live
 wcag: WCAG Not reviewed
 ---
