@@ -23,7 +23,7 @@ dos:
 donts:
   - The label itself is not help text nor should it provide lengthy instruction
 examples:
-  - title: Default
+  - title: Label
     description: A simple text label with no formatting (bold, italic). All labels
       within a system should indicate optional or required fields in the same
       way. This is done using either the "optional” variant or an asterisk (*)
@@ -40,6 +40,10 @@ examples:
       interaction, but the help icon can be useful for cases where longer
       additional guidance is necessary, or when screen space is at a premium.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-text-element&nav=0
+  - title: Legend
+    description: In this example, the legend labels the group of radios with
+      individual labels describing each option.
+    preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-radio-list-element&nav=0
 status: under review
 wcag: WCAG Not reviewed
 ---
