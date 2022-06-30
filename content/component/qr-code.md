@@ -2,6 +2,7 @@
 title: QR code
 date: 2022-06-30T09:17:20.595Z
 description: QR codes can make it easier for users to access a URL.
+preview: https://ds.gbgplc.com/react/iframe.html?id=atoms--qr-element
 dos:
   - Do use when a user is likely in a context where they're able to easily
     access their smartphone's camera
