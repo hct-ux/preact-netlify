@@ -11,7 +11,7 @@ We have separate guides for our [React](https://darling-kataifi-e3972e.netlify.a
 
 ## Release notes
 
-For [React](https://darling-kataifi-e3972e.netlify.app/release-notes-react/) and [Vanilla](https://darling-kataifi-e3972e.netlify.app/release-notes-vanilla/) [](https://darling-kataifi-e3972e.netlify.app/release-notes-react/)flavours.
+For [React](https://ds.gbgplc.com/release-notes/react/) and [Vanilla](https://ds.gbgplc.com/release-notes/vanilla/) [](https://darling-kataifi-e3972e.netlify.app/release-notes-react/)flavours (external links).
 
 ## Component library helper
 
