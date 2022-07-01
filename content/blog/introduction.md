@@ -22,7 +22,7 @@ There are many benefits in using Foundation and contributing to its code base, i
 
 ## For developers
 
-Foundation comes in Vanilla and React flavours. Introductory guides, helpers, templates and a set of interactive components are on the [GBG Component Library site](https://ds.gbgplc.com/).
+The best way to get started is to read our [developer guide](https://darling-kataifi-e3972e.netlify.app/blog/developer-guide.md).
 
 We're moving from bespoke icons to using the Feather Icons library, which is included as a dependency. See the [official documentation](https://github.com/feathericons/feather).
 
