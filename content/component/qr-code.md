@@ -8,7 +8,7 @@ dos:
     access their smartphone's camera
 donts: []
 examples:
-  - preview: http://ds.gbgplc.com/react/index.html?path=/story/atoms--qr-element&nav=0
+  - preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms--qr-element&nav=0
     title: Default
     description: Only use the GBG logo option where the user is familiar with the brand.
 status: live
