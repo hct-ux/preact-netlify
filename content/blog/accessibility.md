@@ -9,7 +9,7 @@ subtitle: We strive to meet the W3C Web Content Accessibility Guidelines (WCAG)
   legislation in countries where similar accessibility laws exist.
 tags: accessibility, wcag, inclusive
 ---
-## Expectations for GBG products 
+## What this means for GBG products 
 
 We should design products that any person can use regardless of whether they have permanent (e.g. blindness), temporary (e.g. cataracts), or situational disabilities (e.g. glare from the sun). By embracing the diversity of our users as part of our design process, we deliver better outcomes for everyone. 
 
