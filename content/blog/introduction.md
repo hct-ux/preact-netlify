@@ -26,7 +26,7 @@ tags: introduction, help
 
 ## Using Foundation
 
-On this site, you can get started using our [developer](/blog/developer-guide.md) and [designer](/blog/designer-guide.md) guides, or explore the [components](/components).
+You can get started with our [developer](/blog/developer-guide.md) and [designer](/blog/designer-guide.md) guides, or explore the [components](/components).
 
 If you can't find what you need, tell us and we’ll do our best to help. We might be able to build or change a component, saving time and effort for your team. Need a new component? Want to improve or change something? [Get in touch](https://forms.office.com/pages/responsepage.aspx?id=CX4F40inykqMZw9aP3qYkLP4NT-SWnZBiG_hFPX6C61UQ1pCN0k1VE5GTUc4T0JPSVQ5WlRIT1I5OCQlQCN0PWcu) (external link).
 
