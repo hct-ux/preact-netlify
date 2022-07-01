@@ -22,7 +22,7 @@ There are many benefits in using Foundation and contributing to its code base, i
 
 ## For developers
 
-The best way to get started is to read our [developer guide](https://darling-kataifi-e3972e.netlify.app/blog/developer-guide.md).
+To get started, see our [developer guide](https://darling-kataifi-e3972e.netlify.app/blog/developer-guide.md).
 
 We're moving from bespoke icons to using the Feather Icons library, which is included as a dependency. See the [official documentation](https://github.com/feathericons/feather).
 
