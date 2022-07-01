@@ -9,7 +9,7 @@ subtitle: Our design system 'Foundation' is your single source of truth for
 cover: ""
 tags: introduction, help
 ---
-## What Foundation offers
+## Foundation offers
 
 ### Cost savings
 
