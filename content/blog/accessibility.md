@@ -98,5 +98,3 @@ Every interactive element should have a visible focus state, preferably deferrin
 All form controls including text boxes, checkboxes, radio buttons and drop downs should have descriptive labels which describe what input is needed from the customer. The label should be outside but aligned near to the form element. 
 
 Identifying and fixing errors can be a frustrating experience for many users. Where possible, inline validation should raise issues at the point they arise, and messaging should clearly describe the problem and how to fix it.
-
-.
