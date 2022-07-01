@@ -41,4 +41,4 @@ Our component library aims to suit common needs, but product teams will always h
 
 By contributing to Foundation, we all benefit from a bigger and better set of components, making it easier and faster to build high-quality digital journeys.
 
-Need a new component? Want to improve or change something? [Get in touch](https://forms.office.com/pages/responsepage.aspx?id=CX4F40inykqMZw9aP3qYkLP4NT-SWnZBiG_hFPX6C61UQ1pCN0k1VE5GTUc4T0JPSVQ5WlRIT1I5OCQlQCN0PWcu).
+Need a new component? Want to improve or change something? [Get in touch](https://forms.office.com/pages/responsepage.aspx?id=CX4F40inykqMZw9aP3qYkLP4NT-SWnZBiG_hFPX6C61UQ1pCN0k1VE5GTUc4T0JPSVQ5WlRIT1I5OCQlQCN0PWcu) (external link).
