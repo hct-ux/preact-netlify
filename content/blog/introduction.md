@@ -11,14 +11,12 @@ tags: introduction, help
 ---
 ## What Foundation offers
 
-There are many benefits in using Foundation and contributing to its code base, including: 
-
-* **Cost saving** - Less time and effort required to create solutions to customer problems
+* **Cost saving** - Less time and effort required to build products
 * **Consistency** - Components are on-brand and can be mixed and matched
-* **Less technical debt** - Tried and tested code that reduces QA testing time per delivery
+* **Less technical debt** - Tried and tested code that reduces QA testing time
 * **Performance** - Components are optimised for site speed, usability and performance
-* **Accessibility** - We're currently auditing all components to deliver WCAG AA as standard
-* **Support** - Regular updates provide additions, bug fixes and improvements
+* **Accessibility** - We're auditing all components to deliver WCAG AA as standard
+* **Support** - Regular updates provide new components, improvements, and bug fixes
 
 ## Extending Foundation
 
