@@ -11,12 +11,29 @@ tags: introduction, help
 ---
 ## What Foundation offers
 
-* **Cost saving** - Less time and effort required to build products
-* **Consistency** - Components are on-brand and can be mixed and matched
-* **Less technical debt** - Tried and tested code that reduces QA testing time
-* **Performance** - Components are optimised for site speed, usability and performance
-* **Accessibility** - We're auditing all components to deliver WCAG AA as standard
-* **Support** - Regular updates provide new components, improvements, and bug fixes
+### Cost savings
+
+Less time and effort spent building product interfaces
+
+### Consistency
+
+Components are on-brand and can be mixed and matched
+
+### Less technical debt
+
+Tried and tested code that reduces QA testing time
+
+### Performance
+
+Components are optimised for site speed, usability and performance
+
+### Accessibility
+
+We're auditing all components to deliver WCAG AA as standard
+
+### Support
+
+Regular updates provide new components, improvements, and bug fixes
 
 ## Extending Foundation
 
