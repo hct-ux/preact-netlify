@@ -3,7 +3,7 @@ title: Introduction
 date: 2019-09-07T05:42:28.441Z
 in_navigation: true
 nav_order: 1
-subtitle: Our design system, 'Foundation', is your single source of truth for
+subtitle: Our design system "Foundation" is your single source of truth for
   digital product design at GBG. Our web component library aligns with GBG's
   design principles, branding and accessibility best practices.
 cover: ""
