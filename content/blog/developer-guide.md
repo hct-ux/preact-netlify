@@ -5,7 +5,7 @@ in_navigation: true
 nav_order: 2
 tags: developer, docs
 ---
-To get up and running, use our guides - in [React](https://darling-kataifi-e3972e.netlify.app/blog/getting-started-react/) and [Vanilla](https://darling-kataifi-e3972e.netlify.app/blog/getting-started-vanilla/) flavours.
+To get up and running, use our guides - in [React](https://darling-kataifi-e3972e.netlify.app/blog/getting-started-reacthttps://darling-kataifi-e3972e.netlify.app/blog/getting-started-vanilla.md/) and [Vanilla](https://darling-kataifi-e3972e.netlify.app/blog/getting-started-vanillahttps://darling-kataifi-e3972e.netlify.app/blog/getting-started-vanilla.md/) flavours.
 
 ## Release notes
 
