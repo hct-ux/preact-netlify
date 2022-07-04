@@ -11,17 +11,17 @@ tags: introduction, help
 ---
 ## Benefits of Foundation
 
-* **Cost savings**\
+* **Cost savings** \
   Less time and effort spent building product interfaces
-* **Consistency**\
+* **Consistency** \
   Components are on-brand and can be mixed and matched
-* **Less technical debt**\
+* **Less technical debt** \
   Tried and tested code that reduces QA testing time
-* **Performance**\
+* **Performance** \
   Components are optimised for site speed, usability and performance
-* **Accessibility**\
+* **Accessibility** \
   We're auditing all components to deliver WCAG AA as standard
-* **Ongoing support**\
+* **Ongoing support** \
   Regular updates provide new components, improvements, and bug fixes
 
 ## Using Foundation
