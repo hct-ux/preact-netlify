@@ -8,7 +8,7 @@
 .blogtitle {
   font-size: 2.2rem;
   font-weight: 400;
-  margin-bottom: 8px;
+  margin-bottom: 32px;
   line-height: 1;
 }
 
@@ -29,7 +29,8 @@
   display: block;
   max-width: 100%;
   color: rgb(57, 58, 52);
-  font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  font-family: Consolas, "Bitstream Vera Sans Mono", "Courier New", Courier,
+    monospace;
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -71,7 +72,7 @@ code.inline {
 }
 
 .blogsubtitle {
-  color: #aaa;
+  line-height: 1.6em;
   display: block;
   text-align: left;
   font-size: 1.2rem;
@@ -106,7 +107,7 @@ code.inline {
   width: 65%;
 }
 
-.inlineImageContainer{
+.inlineImageContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,4 +124,16 @@ code.inline {
   font-size: 0.8rem;
   margin-top: 8px;
   color: #777;
+}
+
+.blogcontainer h2 {
+  margin: 40px 0 32px;
+}
+
+.blogcontainer li {
+  margin-bottom: 12px;
+}
+
+.blogcontainer p {
+  margin: 24px 0;
 }

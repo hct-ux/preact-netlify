@@ -72,14 +72,14 @@ export default class App extends Component {
                   <div class="top-bar__companyname">Company</div>
                 </div> */}
                 <div class="float-menu top-bar__menutarget">
-                  <div class="top-bar__avatar">
+                  {/* <div class="top-bar__avatar">
                     <img
                       class="avatar"
                       src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAAAAXNSR0IArs4c6QAAAkhJREFUeF7tmU8oBFEcx38jy17k70lICclJqS05EMqWg9yUk4uDHBaFTawkWyRJLq4uDg4UUVscthyc5E+K8qeVCwcONn9qtHN4/rS77838TO1s373NznfevPeZz/v13oxGOcU64ZeQgAZAye0AIMnsASAA4hVYGASDYBCPAAzi8UMNgkEwiEcABvH4oQbBIBjEIwCDePxQg2AQDOIRgEE8fpZrUH5eLjV46sXdT84u6C5yb6o35WWlVFtTJa4JHx7R88uLcVxUWECe+jpT7cnCx6fnFLl/kMV+nbcMaHJ0kAL+IdHYbmifvF09pm4e2lqnlqZGcc1YYJaCC8vG8fzMBA0N9JlqTxbe3N6jzu5eWQyAzBCCQXYVabunWKw+dbS3Ju3+0tw0aZomMgPD40nzB+FDOj2/MCMQpaxBKqN4f7ollyvTiOq6Thm5JSqXmcoAkFOnmMpjhkESSgAEQIkXimk3xV6jUbq8ulYZl8hUV1aQ250ddyWt0pCjppjKgGSZn1sNWTZ2HoDSqQbFFmofH58qD15kYou8nyvhtDbov3fzKqQdNcUA6M8jtXuzCoOIKNkLMwACILkDMEjCCIAAyL6vGvIJ6rCtBtZBWAepSP2dGfH1U3DKL/6w8lFuZ2ONvG3Nog3faIAWV1aVO/L2eENZWS4jn3Iv7ZVH4fCg5a8aDh+3cvcBSIIKgABIeTbFDcIgGASDeARgEI8fahAMgkE8AjCIxw81CAbBIB4BGMTjhxoEg2AQjwAM4vFDDYJBMIhHQHL1F3inMBdU3topAAAAAElFTkSuQmCC"
                       alt="Henry Thomas"
                     />
-                  </div>
-                  <i
+                  </div> */}
+                  {/* <i
                     class="icon ico-chevron-down-16 top-bar__menuicon"
                     style="width: 16px; height: 16px;"
                   >
@@ -100,7 +100,7 @@ export default class App extends Component {
                         stroke-linejoin="round"
                       ></path>
                     </svg>
-                  </i>
+                  </i> */}
                   <div class="float-menu__menu" style="padding-top: 44px;">
                     <ul class="float-menu__menuitems">
                       <li class="loat-menu__menuitem">

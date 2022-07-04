@@ -1,4 +1,5 @@
 import { h } from "preact";
+import { Link } from "preact-router";
 import { useEffect } from "preact/hooks";
 import style from "./style";
 
@@ -868,6 +869,13 @@ const Home = () => {
         <p class="">
           Building a consistent product experience for all GBG products.
         </p>
+
+        <Link
+          className="button button--primary m-m-t-4"
+          href="/blog/introduction.md"
+        >
+          Get started
+        </Link>
       </div>
     </div>
   );

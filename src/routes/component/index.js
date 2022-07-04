@@ -101,22 +101,26 @@ function generalDetails(details, content) {
           {content}
         </Markdown>
         <div class={style.doanddont}>
-          <div class={style.dos}>
-            <h3>Do...</h3>
-            <ul>
-              {details.dos.map((dont) => (
-                <li>{dont}</li>
-              ))}
-            </ul>
-          </div>
-          <div class={style.donts}>
-            <h3>Don't...</h3>
-            <ul>
-              {details.donts.map((dont) => (
-                <li>{dont}</li>
-              ))}
-            </ul>
-          </div>
+          {details.dos.length > 0 && (
+            <div class={style.dos}>
+              <h3>Do...</h3>
+              <ul>
+                {details.dos.map((dont) => (
+                  <li>{dont}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+          {details.donts.length > 0 && (
+            <div class={style.donts}>
+              <h3>Don't...</h3>
+              <ul>
+                {details.donts.map((dont) => (
+                  <li>{dont}</li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
