@@ -1,5 +1,5 @@
 ---
-title: Accessibility resources
+title: Accessibility
 date: 2019-09-07T05:43:53.681Z
 in_navigation: true
 nav_order: 7
@@ -9,6 +9,10 @@ subtitle: We strive to meet the W3C Web Content Accessibility Guidelines (WCAG)
   legislation in countries where similar accessibility laws exist.
 tags: accessibility, wcag, inclusive
 ---
+## GBG's accessibility statement
+
+Each digital product must have its own accessibility statement; you can refer to our [group-level statement](https://foundation.gbgplc.com/blog/accessibility-statement.md), which was created using the [W3C's accessibility statement generator](https://www.w3.org/WAI/planning/statements/generator/).
+
 ## What this means for GBG products 
 
 We should design products that any person can use regardless of whether they have permanent (e.g. blindness), temporary (e.g. cataracts), or situational disabilities (e.g. glare from the sun). By embracing the diversity of our users as part of our design process, we deliver better outcomes for everyone. 
