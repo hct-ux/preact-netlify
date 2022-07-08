@@ -7,6 +7,7 @@ import Example from "../../components/example";
 import StatusBadge from "../../components/status-badge";
 import WCAGStatusBadge from "../../components/wcag-status-badge";
 import style from "./style";
+import { Link } from "preact-router";
 
 const component = (props) => {
   const [data, isLoading] = usePrerenderData(props);
@@ -139,6 +140,16 @@ function InlineImage({ alt, title, src }) {
 function header(details) {
   return (
     <>
+      <ul class="breadcrumb">
+        <li class="breadcrumb__crumb">
+          <Link href="/components" class="breadcrumb__link">
+            Components
+          </Link>
+        </li>
+        <li class="breadcrumb__crumb breadcrumb__crumb--current">
+          {details.title}
+        </li>
+      </ul>
       <h1 class={style.blogtitle}>{details.title}</h1>
       <div class={style.badges}>
         <StatusBadge component={details} />

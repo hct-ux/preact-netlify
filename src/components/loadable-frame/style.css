@@ -14,7 +14,7 @@
 
 .previewContainer {
   min-height: 500px;
-  margin-top: 16px;
+  position: relative;
 }
 
 .previewContainerLoading {
@@ -27,4 +27,17 @@
 
 .previewContainer .spinner {
   position: absolute;
+}
+
+.previewContainerLoading .previewContainer__cover {
+  display: none;
+}
+
+.previewContainer__cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  top: 0;
+  left: 0;
 }

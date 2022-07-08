@@ -1,7 +1,7 @@
 const wcagStatusBadge = (props) => {
   let text = props?.component?.wcag ?? "WCAG Not reviewed";
   let aClass = "";
-  debugger;
+
   switch (text) {
     case "WCAG Not reviewed":
       aClass = "pill--error";

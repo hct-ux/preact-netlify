@@ -49,6 +49,7 @@ const example = (props) => {
       </Markdown>
       {props.example.preview && (
         <LoadableFrame
+          class="m-m-t-2"
           title={`Preview for example ${props.example.title}`}
           url={props.example.preview}
         />

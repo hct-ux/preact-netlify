@@ -87,3 +87,11 @@ h2 {
   display: flex;
   gap: 8px;
 }
+
+.comingSoon {
+  display: grid;
+  min-height: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f7f9;
+}

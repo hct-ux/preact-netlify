@@ -100,11 +100,31 @@ function getComponentsListing(components, isLoading) {
                   </div>
                 </div>
                 <div class={`card__body ${style.CardBody}`}>
-                  <LoadableFrame
-                    title={`Preview for ${component.details.title}`}
-                    style={{ minHeight: 200 }}
-                    url={component.details.preview}
-                  />
+                  {component.details.status == "coming soon" && (
+                    <div class={style.comingSoon}>
+                      <svg
+                        viewBox="0 0 24 24"
+                        width="48"
+                        height="48"
+                        stroke="#333"
+                        stroke-width="1"
+                        fill="none"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="css-i6dzq1"
+                      >
+                        <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                      </svg>
+                    </div>
+                  )}
+                  {component.details.status != "coming soon" && (
+                    <LoadableFrame
+                      cover={true}
+                      title={`Preview for ${component.details.title}`}
+                      style={{ minHeight: 200 }}
+                      url={component.details.preview}
+                    />
+                  )}
                 </div>
               </article>
             </Link>

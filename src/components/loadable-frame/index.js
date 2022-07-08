@@ -9,8 +9,9 @@ const loadableFrame = (props) => {
       {...props}
       class={`${style.previewContainer} ${
         loading ? style.previewContainerLoading : ""
-      }`}
+      } ${props.class ? props.class : ""}`}
     >
+      {props?.cover && <div class={style.previewContainer__cover}></div>}
       <iframe
         {...props}
         onLoad={() => {
