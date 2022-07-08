@@ -2,7 +2,7 @@
 title: Developer guide
 date: 2022-07-01T12:46:09.818Z
 in_navigation: true
-nav_order: 4
+nav_order: 3
 tags: developer, docs
 ---
 To get up and running, see our guides - in [React](https://darling-kataifi-e3972e.netlify.app/blog/getting-started-react.md/) and [Vanilla](https://darling-kataifi-e3972e.netlify.app/blog/getting-started-vanilla.md/) flavours.
