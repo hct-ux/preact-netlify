@@ -10,15 +10,15 @@ tags: accessibility, wcag
 ---
 ## Conformance status
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. GBG digital products and services is partially conformant with WCAG 2.1 level AA. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
+The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. GBG digital products and services are partially conformant with WCAG 2.1 level AA. Partially conformant means that some parts of the content do not fully conform to the accessibility standard.
 
 ## Feedback
 
-We welcome your feedback on the accessibility of GBG digital products and services. Please let us know if you encounter accessibility barriers on GBG digital products and services:
+We welcome your feedback on the accessibility of GBG digital products and services. Please let us know if you encounter any accessibility barriers:
 
 * E-mail: [accessibility@gbgplc.com](mailto:accessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.com)
 * Postal Address: GB Group plc, The Foundation, Herons Way, Chester Business Park, Chester CH4 9GB
 
-We try to respond to feedback within 5 business days.
+We aim respond to feedback within 5 business days.
 
 This statement was last updated on 8 July 2022
