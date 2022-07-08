@@ -2,7 +2,7 @@
 title: Accessibility statement
 date: 2022-07-08T13:37:51.368Z
 in_navigation: false
-nav_order: 5
+nav_order: 6
 subtitle: GBG is committed to ensuring digital accessibility for people with
   disabilities. We are continually improving the user experience for everyone,
   and applying the relevant accessibility standards.
