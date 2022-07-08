@@ -21,7 +21,7 @@ const statusBadge = (props) => {
       aClass = "pill--info";
       break;
   }
-  return <div class={`pill pill--square ${aClass}`}>{text}</div>;
+  return <div class={`pill pill--outlined pill--square ${aClass}`}>{text}</div>;
 };
 
 export default statusBadge;

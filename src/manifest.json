@@ -1,6 +1,6 @@
 {
-  "name": "blog",
-  "short_name": "blog",
+  "name": "GBG Foundation",
+  "short_name": "Foundation",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

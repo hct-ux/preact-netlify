@@ -1,6 +1,7 @@
 const wcagStatusBadge = (props) => {
   let text = props?.component?.wcag ?? "WCAG Not reviewed";
   let aClass = "";
+  debugger;
   switch (text) {
     case "WCAG Not reviewed":
       aClass = "pill--error";
@@ -9,13 +10,13 @@ const wcagStatusBadge = (props) => {
       aClass = "pill--warn";
       break;
     case "WCAG AA":
-      aClass = "pill--success";
+      aClass = "pill--success pill--outlined";
       break;
-    case "WCAG AA":
-      aClass = "pill--success";
+    case "WCAG AAA":
+      aClass = "pill--success pill--outlined";
       break;
   }
-  return <div class={`pill pill--square ${aClass}`}>{text}</div>;
+  return <div class={`pill pill--outlined pill--square ${aClass}`}>{text}</div>;
 };
 
 export default wcagStatusBadge;
