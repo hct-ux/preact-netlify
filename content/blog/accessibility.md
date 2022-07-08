@@ -1,5 +1,5 @@
 ---
-title: Accessibility
+title: Accessibility guide
 date: 2019-09-07T05:43:53.681Z
 in_navigation: true
 nav_order: 4
