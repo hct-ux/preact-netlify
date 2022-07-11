@@ -25,7 +25,11 @@ Some people will use assistive technology to access digital products and service
 
 ## Screen readers
 
-A screen reader is software that reads aloud on-screen content and actions, such as headings, text, tables, buttons, links and forms. Screen readers are typically used by people who are visually impaired. The most common are JAWS, NVDA, TalkBack (Android) and VoiceOver (iOS). 
+A screen reader is software that reads aloud on-screen content and actions, such as headings, text, tables, buttons, links and forms. Screen readers are typically used by people who are visually impaired. The most common are JAWS, NVDA, TalkBack (Android) and VoiceOver (iOS).
+
+Guide for Talkback (Android): <https://support.google.com/accessibility/android/answer/6283677?hl=en-GB> 
+
+Guide for VoiceOver (iOS): <https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios> 
 
 ## Magnifiers
 
