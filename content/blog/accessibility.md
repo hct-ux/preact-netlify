@@ -17,13 +17,7 @@ Each digital product must have its own accessibility statement; you can refer to
 
 We should design products that any person can use regardless of whether they have permanent (e.g. blindness), temporary (e.g. cataracts), or situational disabilities (e.g. glare from the sun). By embracing the diversity of our users as part of our design process, we deliver better outcomes for everyone. 
 
-Every product team at GBG has an obligation to measure the accessibility of their products to ensure they reach our agreed level of accessibility (WCAG Level AA). This means: 
-
-* Before initial launch, a product is fully audited using the [Accessibility Checklist](https://gbgplc.sharepoint.com/:x:/s/UXResorces/Ecxuaprc1k5Oj2OmXuP2mvoBhTaKIkIvV-75EXeBOHn2IQ?e=AhbBR8) (typically a combination of automated tools e.g. [Lighthouse](https://developers.google.com/web/tools/lighthouse) and manual checks). This is done by GBG’s UX design team, or a trusted supplier 
-* An interim audit is carried out every 12 months to ensure ongoing compliance 
-* Before launching a new feature, anything new or changed is checked 
-
-High and medium impact issues discovered during these audits should be resolved before launch, low impact or excessively high effort issues can be prioritised for fix post-launch. 
+Every product team at GBG has an obligation to measure the accessibility of their products to ensure they reach our agreed level of accessibility (WCAG Level AA).
 
 ## Presentation resources
 
