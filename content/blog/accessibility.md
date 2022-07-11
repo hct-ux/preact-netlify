@@ -19,26 +19,6 @@ We should design products that any person can use regardless of whether they hav
 
 Every product team at GBG has an obligation to measure the accessibility of their products to ensure they reach our agreed level of accessibility (WCAG Level AA).
 
-## Presentation resources
-
-Some simple dos and don’ts, especially good for raising awareness: <https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf> 
-
-## Guides
-
-Talkback (Android): <https://support.google.com/accessibility/android/answer/6283677?hl=en-GB> 
-
-VoiceOver (iOS): <https://support.apple.com/en-gb/guide/iphone/iph3e2e415f/ios> 
-
-## Online resources
-
-WebAIM colour contrast checker: <https://webaim.org/resources/contrastchecker> 
-
-US government accessibility guide (a useful reference): <https://accessibility.18f.gov/>  
-
-GBG accessibility checklist 
-
-<https://gbgplc.sharepoint.com/:x:/s/UXResorces/EenEWeL-TWJEpJU4WEEEXF0Bfpsv9dey5GBddw9QMqqXyA?e=xsEGlh&isSPOFile=1> 
-
 ## Assistive technology
 
 Some people will use assistive technology to access digital products and services, we need to ensure that we consider these during the design process so as not to exclude anyone. 
