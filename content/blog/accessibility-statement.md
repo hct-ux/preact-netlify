@@ -21,4 +21,4 @@ We welcome your feedback on the accessibility of GBG's digital products and ser
 
 We aim respond to feedback within 5 business days.
 
-This statement was last updated on 8 July 2022
+This statement was last updated on 12th July 2022
