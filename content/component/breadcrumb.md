@@ -16,5 +16,5 @@ examples:
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules--breadcrumb-element&nav=0
     description: There is no limit to the number of items in a breadcrumb.
 status: live
-wcag: WCAG AAA
+wcag: WCAG Not reviewed
 ---
