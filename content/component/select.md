@@ -22,7 +22,7 @@ donts:
   - Do not use the blank/default option text in place of a form label
 examples:
   - title: Default
-    preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--select-elements
+    preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--select-elements&nav=0
     description: "Use to allow selection from a long list of items. The select’s
       width can be restricted according to the expected input. "
   - title: Disabled
