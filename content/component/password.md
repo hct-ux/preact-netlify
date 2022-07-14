@@ -21,7 +21,7 @@ examples:
 
 
       A set of rules that reflect the password policy. These must reflect all coded validation rules, such as password length and character requirements (numbers, special characters, etc). 
-    preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--password-elements
+    preview: https://ds.gbgplc.com/react/?path=/story/atoms-controls--password-elements&nav=0
 status: live
 wcag: WCAG Not reviewed
 ---
