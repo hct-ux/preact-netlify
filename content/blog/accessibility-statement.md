@@ -16,7 +16,7 @@ The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standa
 
 We welcome your feedback on the accessibility of GBG's digital products and services. Please let us know if you encounter any accessibility barriers:
 
-* E-mail: [accessibility@gbgplc.com](mailto:accessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.comaccessibility@gbgplc.com)
+* E-mail: [accessibility@gbgplc.com](mailto:accessibility@gbgplc.com)
 * Postal Address: GBG UX Team, GB Group, The Foundation, Herons Way, Chester Business Park, Chester CH4 9GB
 
 We aim respond to feedback within 5 business days.
