@@ -63,5 +63,5 @@ examples:
       provide feedback as to why the interaction isn’t possible.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/atoms-button--button-element&nav=0&knob-Disabled?=true
 status: live
-wcag: WCAG Not reviewed
+wcag: WCAG AAA
 ---
