@@ -45,5 +45,5 @@ examples:
       individual labels describing each option.
     preview: https://ds.gbgplc.com/react/index.html?path=/story/molecules-forms-groups--form-group-radio-list-element&nav=0
 status: under review
-wcag: WCAG Not reviewed
+wcag: WCAG AAA
 ---
